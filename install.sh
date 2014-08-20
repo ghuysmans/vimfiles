@@ -1,0 +1,2 @@
+cp .vimrc ~/
+./update.sh
