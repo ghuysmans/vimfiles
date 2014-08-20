@@ -1,9 +1,11 @@
-colors corporation
+if has("gui_running")
+	colors corporation
+	set go-=m go-=T go-=r
+	set guifont=Consolas:h11
+endif
 set encoding=utf-8 
 lang English_US
 syntax on
-set go-=m go-=T go-=r
-set guifont=Consolas:h11
 set ttyfast
 set relativenumber
 let mapleader=' '
