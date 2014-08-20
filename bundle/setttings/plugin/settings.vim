@@ -9,7 +9,7 @@ syntax on
 set ttyfast
 set relativenumber
 let mapleader=' '
-"search
+"smart search
 set hlsearch
 set ignorecase
 set smartcase
@@ -25,4 +25,5 @@ nmap <F12> :silent !ctags -R *<cr>
 "shortcuts
 nmap <Leader>1 yypVr=
 nmap <Leader>s :new ~/vimfiles/bundle/setttings/plugin/settings.vim<cr>G
-nmap <Leader>x :NERDTree<cr>
+nmap <Leader>x :NERDTreeToggle<cr>
+nmap <Leader>f /sdhfgsdjhgf<cr>
