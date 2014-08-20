@@ -1,0 +1,12 @@
+[submodule "bundle/shell"]
+	path = bundle/shell
+	url = https://github.com/xolox/vim-shell.git
+[submodule "bundle/misc"]
+	path = bundle/misc
+	url = https://github.com/xolox/vim-misc.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/acp"]
+	path = bundle/acp
+	url = https://github.com/vim-scripts/AutoComplPop.git
