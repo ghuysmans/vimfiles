@@ -30,7 +30,6 @@ nmap <Leader>f /sdhfgsdjhgf<cr>
 nmap <Leader>i :set viminfo=<cr>
 "ignored files
 set wildignore+=*.eot,*.svg,*.woff,*.ttf "(web) fonts
-set wildignore+=tags "ctags
 set wildignore+=*.png,*.gif,*.jpg,*.ico "images
 "NERDTree ignored files
 "taken from http://stackoverflow.com/a/19972950
