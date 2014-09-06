@@ -28,6 +28,7 @@ nmap <Leader>s :new ~/vimfiles/bundle/setttings/plugin/settings.vim<cr>G
 nmap <Leader>x :NERDTreeToggle<cr>
 nmap <Leader>f /sdhfgsdjhgf<cr>
 nmap <Leader>i :set viminfo=<cr>
+inoremap jk <esc>
 "ignored files
 set wildignore+=*.eot,*.svg,*.woff,*.ttf "(web) fonts
 set wildignore+=*.png,*.gif,*.jpg,*.ico "images
@@ -42,3 +43,5 @@ function! s:FileGlobToRegexp(glob)
 	endif
 endfunction
 let g:NERDTreeIgnore = map(split(&wildignore, ','), 's:FileGlobToRegexp(v:val)')
+"localvimrc
+let g:localvimrc_persistent=1
