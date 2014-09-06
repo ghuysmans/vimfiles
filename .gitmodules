@@ -1,21 +1,28 @@
 [submodule "bundle/shell"]
 	path = bundle/shell
 	url = https://github.com/xolox/vim-shell.git
+	ignore = dirty
 [submodule "bundle/misc"]
 	path = bundle/misc
 	url = https://github.com/xolox/vim-misc.git
+	ignore = dirty
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+	ignore = dirty
 [submodule "bundle/acp"]
 	path = bundle/acp
 	url = https://github.com/vim-scripts/AutoComplPop.git
+	ignore = dirty
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+	ignore = dirty
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround.git
+	ignore = dirty
 [submodule "bundle/localvimrc"]
 	path = bundle/localvimrc
 	url = https://github.com/embear/vim-localvimrc.git
+	ignore = dirty
