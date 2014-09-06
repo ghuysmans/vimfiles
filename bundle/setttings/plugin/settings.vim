@@ -43,5 +43,3 @@ function! s:FileGlobToRegexp(glob)
 	endif
 endfunction
 let g:NERDTreeIgnore = map(split(&wildignore, ','), 's:FileGlobToRegexp(v:val)')
-"localvimrc
-let g:localvimrc_persistent=1
