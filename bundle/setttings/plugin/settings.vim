@@ -1,5 +1,7 @@
 set encoding=utf-8 
-lang English_US
+if has("win32")
+	lang English_US
+endif
 syntax on
 set ttyfast
 set number
