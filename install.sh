@@ -1,4 +1,4 @@
 ln -s "`pwd`" ~/.vim
 chmod +x *.sh
-cp .vimrc ~/
+ln .vimrc ~/
 ./update.sh
