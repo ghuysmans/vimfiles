@@ -6,7 +6,6 @@ endif
 syntax on
 set ttyfast
 set number
-set relativenumber
 let mapleader=' '
 if has("win32")
 	"assume this is the GNU version
