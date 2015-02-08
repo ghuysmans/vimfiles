@@ -26,3 +26,9 @@
 	path = bundle/localvimrc
 	url = https://github.com/embear/vim-localvimrc.git
 	ignore = dirty
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "bundle/snippets"]
+	path = bundle/snippets
+	url = https://github.com/honza/vim-snippets.git
