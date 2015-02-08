@@ -7,3 +7,4 @@ syntax on
 set ttyfast
 set number
 let mapleader=' '
+set list listchars=tab:··,trail:*,extends:»,precedes:«,nbsp:×
