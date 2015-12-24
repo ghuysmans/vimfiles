@@ -38,3 +38,6 @@
 [submodule "bundle/python-mode"]
 	path = bundle/python-mode
 	url = https://github.com/klen/python-mode.git
+[submodule "bundle/vim-lambdify"]
+	path = bundle/vim-lambdify
+	url = https://github.com/calebsmith/vim-lambdify.git
