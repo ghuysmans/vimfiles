@@ -32,9 +32,6 @@
 [submodule "bundle/snippets"]
 	path = bundle/snippets
 	url = https://github.com/honza/vim-snippets.git
-[submodule "bundle/organizer"]
-	path = bundle/organizer
-	url = https://github.com/hsitz/VimOrganizer.git
 [submodule "bundle/python-mode"]
 	path = bundle/python-mode
 	url = https://github.com/klen/python-mode.git
