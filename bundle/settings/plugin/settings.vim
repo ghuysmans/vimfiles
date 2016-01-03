@@ -8,3 +8,4 @@ set ttyfast
 set number
 let mapleader=' '
 set list listchars=tab:··,trail:*,extends:»,precedes:«,nbsp:×
+let g:airline_theme='powerlineish'
