@@ -4,3 +4,8 @@ endif
 let g:localvimrc_persistent=1
 execute pathogen#infect()
 execute pathogen#helptags()
+
+let g:opamshare = substitute(system('opam config var share'),'\n$','','')
+if g:opamshare !~# "command"
+	execute "set rtp+=" . g:opamshare . "/merlin/vim"
+endif

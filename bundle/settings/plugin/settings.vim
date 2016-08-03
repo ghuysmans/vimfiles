@@ -7,6 +7,7 @@ syntax on
 set ttyfast
 set number
 let mapleader=' '
+let maplocalleader='§'
 set list listchars=tab:··,trail:*,extends:»,precedes:«,nbsp:×
 let g:airline_theme='powerlineish'
 set textwidth=79 "reformat with gq
