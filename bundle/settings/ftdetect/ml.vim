@@ -9,5 +9,5 @@ function s:shortcuts()
 	nmap <Leader>M :MerlinJump match<cr>
 	nmap <Leader>F :MerlinJump fun<cr>
 endfunction
-au BufNewFile,BufRead *.ml setlocal tabstop=2 shiftwidth=2
-au BufNewFile,BufRead *.ml call s:shortcuts()
+au BufNewFile,BufRead *.ml,*.mli setlocal tabstop=2 shiftwidth=2
+au BufNewFile,BufRead *.ml,*.mli call s:shortcuts()
