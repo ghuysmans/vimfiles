@@ -44,3 +44,6 @@
 [submodule "bundle/vim-ledger"]
 	path = bundle/vim-ledger
 	url = git@github.com:ledger/vim-ledger.git
+[submodule "bundle/ctrlp2"]
+	path = bundle/ctrlp2
+	url = https://github.com/ctrlpvim/ctrlp.vim

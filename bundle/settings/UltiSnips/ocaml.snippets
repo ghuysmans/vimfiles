@@ -1,0 +1,121 @@
+priority -49
+
+snippet let "let .."
+let ${1:x} =
+	${2:${VISUAL:failwith "TODO"}}
+
+endsnippet
+
+snippet lin "let .. in"
+let ${1:x} =
+	${2:${VISUAL:failwith "TODO"}}
+in
+
+endsnippet
+
+snippet l( "let ()"
+let () =
+	${VISUAL}
+endsnippet
+
+snippet try "try"
+try ${VISUAL}$0
+with ${2:Not_found} -> ${3:()}
+endsnippet
+
+snippet Try "try (newline)"
+try
+	${VISUAL}$0
+with ${2:Not_found} ->
+	${3:()}
+endsnippet
+
+snippet fun "anonymous function"
+(fun ${1:x} -> ${VISUAL}$0)
+endsnippet
+
+snippet lr "let rec"
+let rec ${1:f} =
+	${VISUAL}
+endsnippet
+
+snippet if "if/else"
+if ${1:condition} then
+	${VISUAL}$0
+else
+	${3:otherwise}
+endsnippet
+
+snippet If "if ()"
+if ${1:condition} then (
+	${VISUAL}$0
+)
+endsnippet
+
+snippet while "while"
+while ${1:condition} do
+	${VISUAL}$0
+done
+endsnippet
+
+snippet for "for"
+for ${1:i} = ${2:1} to ${3:10} do
+	${VISUAL}$0
+done
+endsnippet
+
+snippet beg "beg"
+begin
+	${VISUAL}$0
+end
+endsnippet
+
+snippet mod "module - no signature"
+module ${1:name} = struct
+	${VISUAL}$0
+end
+endsnippet
+
+snippet Mod "module with signature"
+module ${1:name} : ${2:sig} = struct
+	${VISUAL}$0
+end
+endsnippet
+
+snippet func "define functor - no signature"
+module ${1:M} (${2:Arg} : ${3:ARG}) = struct
+	${VISUAL}$0
+end
+endsnippet
+
+snippet Func "define functor - with signature"
+module ${1:M} (${2:Arg} : ${3:ARG}) : ${4:SIG} = struct
+	${VISUAL}$0
+end
+endsnippet
+
+snippet mot "Declare module signature"
+module type ${1:name} = sig
+	${VISUAL}$0
+end
+endsnippet
+
+snippet module "Module with anonymous signature"
+module ${1:name} : sig
+	${2:sig}
+end = struct
+	${VISUAL}$0
+end
+endsnippet
+
+snippet printf "printf"
+Printf.printf "${1:%s}\n"
+endsnippet
+
+snippet fprintf "fprintf"
+Printf.fprintf ${2:stderr} "$1\n"
+endsnippet
+
+snippet debug "fprintf"
+Printf.fprintf ${2:stderr} "$0${1/(\w+)/$1=%s/g}\n" ${1}
+endsnippet
