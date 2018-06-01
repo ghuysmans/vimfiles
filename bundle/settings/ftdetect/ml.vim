@@ -14,5 +14,6 @@ function s:shortcuts()
 	vnoremap <expr> é "c" . input("Variable name: ") . "\<esc>Olet \<C-r>. = \<C-r>\" in\<esc>`["
 endfunction
 let g:merlin_ignore_warnings = "false"
+let g:syntastic_ocaml_checkers = ['merlin']
 au BufNewFile,BufRead *.ml,*.mli setlocal tabstop=2 shiftwidth=2
 au BufNewFile,BufRead *.ml,*.mli call s:shortcuts()
