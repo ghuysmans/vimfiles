@@ -11,3 +11,4 @@ let maplocalleader='§'
 set list listchars=tab:··,trail:*,extends:»,precedes:«,nbsp:×
 set textwidth=79 "reformat with gq
 au BufNewFile,BufRead *.eliom,*.eliomi set filetype=ocaml
+nnoremap <Leader>l :setlocal spelllang=fr<cr>
